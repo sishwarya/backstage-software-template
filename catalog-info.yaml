@@ -1,0 +1,13 @@
+
+  apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-software-template
+  annotations:
+    backstage.io/kubernetes-id: backstage-software-template
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: sishwarya/backstage-software-template
+spec:
+  type: service
+  lifecycle: production
+  owner: user:default/sishwarya
