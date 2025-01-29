@@ -1,0 +1,30 @@
+# Tribe and Squad identification
+tribe: test
+squad: test
+
+security_tools:
+
+  # Secrets Detection
+  secrets_detection:
+    enabled: 1
+    secrets_scanning: 1
+    pr_based:
+      enabled: 1
+
+  # Static Application Security Testing (SAST)
+  sast:
+    enabled: 1
+    tools:
+      codeQL:
+        enabled: 1
+        config_file_path: .github/workflows/codeql.yml
+      veracode:
+        enabled: 1
+      sonarcloud:
+        enabled: 1
+      sobelow:
+        enabled: 1
+      credo:
+        enabled: 1
+      klocwork:
+        enabled: 1
