@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-software-template
+  annotations:
+spec:
+  type: other
+  lifecycle: production
+  owner: user:default/sishwarya
